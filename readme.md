@@ -1,6 +1,6 @@
 # 🎓 Painel de Estudos - Rafaella Alice
 
-![Preview do Projeto](./preview.png)
+<img src="/img/paineldeestudos.png" alt="">
 
 > Um painel interativo para organizar seus estudos — com Pomodoro, tarefas e anotações.  
 > Desenvolvido por *Rafaella Alice*, com foco em design moderno, responsividade e usabilidade. 💙
