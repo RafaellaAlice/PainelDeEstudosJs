@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel de Estudos - Rafaella Alice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1>🎓 Painel de Estudos</h1>
+      <p>por <strong>Rafaella Alice</strong></p>
+    </div>
+    <button id="toggleDarkMode">🌙</button>
+  </header>
+
+  <main>
+    <!-- Pomodoro -->
+    <section class="pomodoro card">
+      <h2>⏰ Temporizador Pomodoro</h2>
+      <div id="timer">25:00</div>
+      <div class="controls">
+        <button id="start">Iniciar</button>
+        <button id="pause">Pausar</button>
+        <button id="reset">Resetar</button>
+      </div>
+    </section>
+
+    <!-- Tarefas -->
+    <section class="tasks card">
+      <h2>📋 Tarefas de Estudo</h2>
+      <div class="add-task">
+        <input type="text" id="taskInput" placeholder="Digite uma tarefa..." />
+        <button id="addTask">Adicionar</button>
+      </div>
+      <ul id="taskList"></ul>
+    </section>
+
+    <!-- Anotações -->
+    <section class="notes card">
+      <h2>📝 Anotações</h2>
+      <textarea id="noteArea" placeholder="Escreva suas anotações aqui..."></textarea>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com 💙 por <strong>Rafaella Alice</strong></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

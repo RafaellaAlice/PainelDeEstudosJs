@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease;
+}
+
+body {
+    background: linear-gradient(120deg, #a3d5ff, #f6faff);
+    color: #333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ====== HEADER ====== */
+header {
+    background: #007bff;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+header .title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header .title p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+#toggleDarkMode {
+    background: white;
+    color: #007bff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#toggleDarkMode:hover {
+    background: #e2e6ea;
+}
+
+/* ====== MAIN ====== */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Pomodoro */
+#timer {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.controls button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background: #0056b3;
+}
+
+/* Tarefas */
+.add-task {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#addTask {
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#addTask:hover {
+    background: #1e7e34;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    padding: 0.6rem;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: gray;
+    background: #e0e0e0;
+}
+
+#taskList button {
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+
+/* Notas */
+#noteArea {
+    width: 100%;
+    height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 0.5rem;
+    resize: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* ====== DARK MODE ====== */
+body.dark {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+body.dark header {
+    background: #111;
+}
+
+body.dark .card {
+    background: #2a2a2a;
+}
+
+body.dark footer {
+    background: #111;
+}
+
+/* ====== RESPONSIVIDADE ====== */
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        padding: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    #timer {
+        font-size: 2.2rem;
+    }
+}
