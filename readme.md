@@ -1,4 +1,4 @@
-# 🎓 Painel de Estudos - Rafaella Alice
+# Painel de Estudos - Rafaella Alice
 
 <img src="/img/paineldeestudos.png" alt="">
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -17,7 +17,7 @@
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - ⏰ *Temporizador Pomodoro:* controle de tempo de estudo com opções de iniciar, pausar e resetar.  
 - 📋 *Lista de Tarefas:* adicione, conclua e exclua tarefas; todas salvas no navegador.  
@@ -27,19 +27,19 @@
 
 ---
 
-## 🧩 Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
-### 🔹 *HTML5*
+### *HTML5*
 - Estrutura semântica e acessível usando <header>, <main>, <section> e <footer>.  
 - Organização modular e bem comentada para fácil manutenção.  
 
-### 🔹 *CSS3*
+### *CSS3*
 - Design moderno com *Flexbox* e *CSS Grid*.  
 - *Media Queries* para responsividade total.  
 - Paleta de cores suaves e tipografia com *Poppins*.  
 - Implementação de *modo escuro* com transições suaves.  
 
-### 🔹 *JavaScript (ES6+)*
+### *JavaScript (ES6+)*
 - Controle lógico do temporizador com setInterval.  
 - Manipulação do DOM para tarefas e anotações.  
 - Armazenamento local via *Local Storage* (dados persistem mesmo após atualizar a página).  
@@ -47,13 +47,13 @@
 
 ---
 
-## 💾 Armazenamento Local
+## Armazenamento Local
 
 O projeto utiliza o *Local Storage* do navegador para guardar:
-- ✅ Tarefas adicionadas  
-- 📝 Anotações digitadas  
+- Tarefas adicionadas  
+- Anotações digitadas  
 Esses dados são carregados automaticamente quando o usuário retorna ao site.
 
 ---
 
-## 📁 Estrutura de Pastas
+## Estrutura de Pastas
